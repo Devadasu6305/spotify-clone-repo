@@ -131,17 +131,6 @@ body {
     background-color: #1db954;
 }
 
-.search-bar {
-    padding: 10px ;
-    border: none;
-    border-radius: 20px;
-    background-color: #fff;
-    color: #000;
-    width: 350px;
-    margin-left: 12rem;
-    /* Adjust width as needed */
-}
-
 .spotify-playlists {
     color: #fff;
     padding: 20px 40px;
