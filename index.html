@@ -1,97 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Clone</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="spotify pictures\Spotify_favicon.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="shortcut icon" href="spotify pictures\Spotify_favicon.png" type="image/x-icon">
 </head>
-
 <body>
-
-    <div class="sidebar">
-        <div class="logo">
-            <a href="">
-                <img src="spotify pictures\Spotify Logo.png" alt="Logo">
-            </a>
-        </div>
-
-        <div class="navigation">
-            <ul>
-                <li>
-                    <a href="">
-                        <span class="fa fa-home"></span>
-                        <span>Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="fa fa-search"></span>
-                        <span>Search</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="fa fas fa-book"></span>
-                        <span>Your Library</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="navigation">
-            <ul>
-                <li>
-                    <a href="">
-                        <span class="fa fa-home"></span>
-                        <span>Create Playlist</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="fa fa-search"></span>
-                        <span>Liked Songs</span>
-                    </a>
-                </li>
-
-            </ul>
-        </div>
-
-        <div class="policies">
-            <ul>
-                <li>
-                    <a href="">Cookies</a>
-                </li>
-                <li>
-                    <a href="">Privacy</a>
-                </li>
-            </ul>
-        </div>
-
-
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="logo">
+      <img src="spotify pictures\Spotify Logo.png" alt="Spotify Logo">
+      <h2>Spotify</h2>
     </div>
+    <ul class="menu">
+      <li><i class="fa fa-home"></i> Home</li>
+      <li><i class="fa fa-search"></i> Search</li>
+      <li><i class="fa fa-book"></i> Your Library</li>
+      <li><i class="fa fa-plus-square"></i> Create Playlist</li>
+      <li><i class="fa fa-heart"></i> Liked Songs</li>
+    </ul>
+  </div>
 
-    <div class="main-container">
-        <div class="topbar">
+  <!-- Main Section -->
+  <div class="main-content">
+    <!-- Header -->
+    <header>
+      <div class="search-container">
+        <input type="text" placeholder="Search...">
+      </div>
+      <div class="auth-buttons">
+        <button class="signup-btn">Sign Up</button>
+        <button class="login-btn">Login</button>
+      </div>
+    </header>
 
-            <div class="navbar">
-                <input  type="text" placeholder="Search..." class="search-bar">
-                <ul>
-                    <li>
-                        <a href="signup.html">SignUp</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="login.html">Login</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="spotify-playlists">
+    <!-- Playlist Section -->
+     <div class="spotify-playlists">
             <h3>Spotify Playlists</h2>
 
             <div class="list">
@@ -296,7 +242,6 @@
         </div>
 
     </div>
-
     <div class="preview">
         <div class="text">
             <h6>Preview of Spotify</h6>
@@ -307,8 +252,7 @@
         </div>
     </div>
 
-
-    <script src="https://kit.fontawesome.com/ef9a692198.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
