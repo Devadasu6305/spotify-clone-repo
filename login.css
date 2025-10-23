@@ -95,7 +95,7 @@ input::placeholder {
   color: #aaa;
 }
 
-.button {
+.input a button {
   background-color: #1ed760;
   color: black;
   font-weight: bold;
@@ -106,7 +106,7 @@ input::placeholder {
   transition: background 0.3s;
 }
 
-.button:hover {
+.input a button:hover {
   background-color: #1fdf64;
 }
 
@@ -120,4 +120,5 @@ input::placeholder {
   color: white;
   text-decoration: underline;
 }
+
 
