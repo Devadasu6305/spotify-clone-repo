@@ -130,7 +130,8 @@ body {
 .topbar .navbar ul li a:hover {
     background-color: #1db954;
 }
-.search-bar {
+
+.topbar .navbar .search-bar {
     padding: 10px ;
     border: none;
     border-radius: 20px;
