@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="login.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Spotify</title>
+  <link rel="stylesheet" href="login.css" />
 </head>
 <body>
-    <div class="wrapper">
-        <form action="">
-            <h1>Login</h1>
-            <div class="input-box">
-                <input type="text" placeholder="username or mobile" \required>
-            </div>
-            <div class="input-box">
-                <input type="password" placeholder="Password" \required>
-            </div>
-            <div class="remember-forget">
-                <label><input type="checkbox">Remember me</label>
-                <a href="#">Forget password</a>
-            </div>
-            <button type="submit" class="btn"><a href="index.html">Login</a></button>
-            <div class="register-link">
-                <p>Don't have an account?<a href="#">Register</a></p>
-            </div>
-        </form>
+  <div class="login-container">
+    <div class="login-box">
+      <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify Logo">
+      </div>
+      <h2>Log in to Spotify</h2>
+
+      <div class="social-buttons">
+        <button class="google"><img src="https://www.svgrepo.com/show/475656/google-color.svg"> Continue with Google</button>
+        <button class="facebook"><img src="https://www.svgrepo.com/show/452196/facebook-1.svg"> Continue with Facebook</button>
+        <button class="apple"><img src="https://www.svgrepo.com/show/303128/apple-logo.svg"> Continue with Apple</button>
+        <button class="phone">Continue with phone number</button>
+      </div>
+
+      <div class="divider"></div>
+
+      <form>
+        <label>Email or username</label>
+        <input type="text" placeholder="Email or username" required>
+        <a href=""><button type="submit" class="continue-btn">Continue</button></a>
+      </form>
+
+      <p class="signup-text">
+        Don’t have an account? <a href="#">Sign up for Spotify</a>
+      </p>
     </div>
-    
-    
+  </div>
 </body>
-
 </html>
-
